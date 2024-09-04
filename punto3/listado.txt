@@ -1,0 +1,8 @@
+perro, perro, koala gato
+zancudo
+perro
+gato,gatos, gato, gatito
+gato
+raton
+perro
+

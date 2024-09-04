@@ -1,0 +1,49 @@
+README para el Programa en C
+
+Descripción
+
+Este programa en C cuenta cuántas veces aparece una palabra clave en un archivo de texto.
+
+Archivos Incluidos
+
+index.c: Código fuente del programa en C.
+listado.txt: Archivo de texto de ejemplo para la búsqueda (puedes reemplazar este archivo con el archivo que prefieras).
+
+Instrucciones para Compilar y Ejecutar
+
+1. Compilar el Programa
+
+Abre una terminal y navega al directorio que contiene el archivo index.c. Ejecuta el siguiente comando para compilar el programa:
+
+    gcc -o index index.c
+
+Esto generará un ejecutable llamado index.
+
+2. Ejecutar el Programa
+
+Para ejecutar el programa y buscar una palabra clave en un archivo de texto, usa el siguiente comando:
+
+    ./index listado.txt perro
+
+Reemplaza listado.txt con el nombre de tu archivo de texto y perro con la palabra clave que deseas buscar. El programa imprimirá el número de veces que la palabra clave aparece en el archivo.
+
+Ejemplo de Ejecución
+
+Si listado.txt contiene:
+perro
+perro
+koala
+zancudo
+perro
+gato
+raton
+perro
+
+Y ejecutas:
+
+    ./index listado.txt perro
+
+La salida será:
+
+La palabra clave es: 'perro'
+Esta palabra se repite 4 veces en el texto.
